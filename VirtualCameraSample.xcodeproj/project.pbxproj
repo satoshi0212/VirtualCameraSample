@@ -18,6 +18,15 @@
 		ABB04E6A2515481A0038D75C /* CameraCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E5F2515481A0038D75C /* CameraCapture.swift */; };
 		ABB04E6B2515481A0038D75C /* VideoComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E602515481A0038D75C /* VideoComposer.swift */; };
 		ABB04E7225154B1F0038D75C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E7125154B1F0038D75C /* Device.swift */; };
+		ABB04E7F2515A8140038D75C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E7E2515A8140038D75C /* AppDelegate.swift */; };
+		ABB04E812515A8140038D75C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E802515A8140038D75C /* ViewController.swift */; };
+		ABB04E832515A8160038D75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB04E822515A8160038D75C /* Assets.xcassets */; };
+		ABB04E862515A8160038D75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB04E842515A8160038D75C /* Main.storyboard */; };
+		ABB04E912515EDD40038D75C /* SettingsPasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E902515EDD40038D75C /* SettingsPasteboard.swift */; };
+		ABB04E922515EDD40038D75C /* SettingsPasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E902515EDD40038D75C /* SettingsPasteboard.swift */; };
+		ABB04E962515EE320038D75C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E952515EE320038D75C /* Config.swift */; };
+		ABB04E972515EE320038D75C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E952515EE320038D75C /* Config.swift */; };
+		ABB04E9D25162D310038D75C /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E9C25162D310038D75C /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +44,27 @@
 		ABB04E602515481A0038D75C /* VideoComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoComposer.swift; sourceTree = "<group>"; };
 		ABB04E6E25154A330038D75C /* VirtualCameraSample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VirtualCameraSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		ABB04E7125154B1F0038D75C /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		ABB04E7C2515A8140038D75C /* VirtualCameraSampleController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualCameraSampleController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB04E7E2515A8140038D75C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABB04E802515A8140038D75C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABB04E822515A8160038D75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB04E852515A8160038D75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABB04E872515A8160038D75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB04E882515A8160038D75C /* VirtualCameraSampleController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VirtualCameraSampleController.entitlements; sourceTree = "<group>"; };
+		ABB04E902515EDD40038D75C /* SettingsPasteboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPasteboard.swift; sourceTree = "<group>"; };
+		ABB04E952515EE320038D75C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		ABB04E9C25162D310038D75C /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ABB04E492515477A0038D75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB04E792515A8140038D75C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,6 +79,7 @@
 			children = (
 				ABB04E762515A6210038D75C /* Common */,
 				ABB04E4E2515477A0038D75C /* VirtualCameraSample */,
+				ABB04E7D2515A8140038D75C /* VirtualCameraSampleController */,
 				ABB04E4D2515477A0038D75C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB04E4C2515477A0038D75C /* VirtualCameraSample.plugin */,
+				ABB04E7C2515A8140038D75C /* VirtualCameraSampleController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,8 +116,24 @@
 		ABB04E762515A6210038D75C /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				ABB04E902515EDD40038D75C /* SettingsPasteboard.swift */,
+				ABB04E952515EE320038D75C /* Config.swift */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		ABB04E7D2515A8140038D75C /* VirtualCameraSampleController */ = {
+			isa = PBXGroup;
+			children = (
+				ABB04E7E2515A8140038D75C /* AppDelegate.swift */,
+				ABB04E802515A8140038D75C /* ViewController.swift */,
+				ABB04E9C25162D310038D75C /* WindowController.swift */,
+				ABB04E822515A8160038D75C /* Assets.xcassets */,
+				ABB04E842515A8160038D75C /* Main.storyboard */,
+				ABB04E872515A8160038D75C /* Info.plist */,
+				ABB04E882515A8160038D75C /* VirtualCameraSampleController.entitlements */,
+			);
+			path = VirtualCameraSampleController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,17 +156,38 @@
 			productReference = ABB04E4C2515477A0038D75C /* VirtualCameraSample.plugin */;
 			productType = "com.apple.product-type.bundle";
 		};
+		ABB04E7B2515A8140038D75C /* VirtualCameraSampleController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB04E892515A8160038D75C /* Build configuration list for PBXNativeTarget "VirtualCameraSampleController" */;
+			buildPhases = (
+				ABB04E782515A8140038D75C /* Sources */,
+				ABB04E792515A8140038D75C /* Frameworks */,
+				ABB04E7A2515A8140038D75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualCameraSampleController;
+			productName = VirtualCameraSampleController;
+			productReference = ABB04E7C2515A8140038D75C /* VirtualCameraSampleController.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		ABB04E442515477A0038D75C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					ABB04E4B2515477A0038D75C = {
 						CreatedOnToolsVersion = 12.0;
 						LastSwiftMigration = 1200;
+					};
+					ABB04E7B2515A8140038D75C = {
+						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
@@ -140,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				ABB04E4B2515477A0038D75C /* VirtualCameraSample */,
+				ABB04E7B2515A8140038D75C /* VirtualCameraSampleController */,
 			);
 		};
 /* End PBXProject section */
@@ -149,6 +215,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB04E7A2515A8140038D75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB04E832515A8160038D75C /* Assets.xcassets in Resources */,
+				ABB04E862515A8160038D75C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +240,8 @@
 				ABB04E7225154B1F0038D75C /* Device.swift in Sources */,
 				ABB04E632515481A0038D75C /* PluginInterface.swift in Sources */,
 				ABB04E6A2515481A0038D75C /* CameraCapture.swift in Sources */,
+				ABB04E962515EE320038D75C /* Config.swift in Sources */,
+				ABB04E912515EDD40038D75C /* SettingsPasteboard.swift in Sources */,
 				ABB04E6B2515481A0038D75C /* VideoComposer.swift in Sources */,
 				ABB04E622515481A0038D75C /* CVPixelBuffer+SimpleDALPlugin.swift in Sources */,
 				ABB04E672515481A0038D75C /* Object.swift in Sources */,
@@ -173,7 +250,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABB04E782515A8140038D75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB04E922515EDD40038D75C /* SettingsPasteboard.swift in Sources */,
+				ABB04E9D25162D310038D75C /* WindowController.swift in Sources */,
+				ABB04E972515EE320038D75C /* Config.swift in Sources */,
+				ABB04E812515A8140038D75C /* ViewController.swift in Sources */,
+				ABB04E7F2515A8140038D75C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABB04E842515A8160038D75C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB04E852515A8160038D75C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ABB04E502515477A0038D75C /* Debug */ = {
@@ -334,6 +434,54 @@
 			};
 			name = Release;
 		};
+		ABB04E8A2515A8160038D75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VirtualCameraSampleController/VirtualCameraSampleController.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247V527KAQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = VirtualCameraSampleController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.shmdevelopment.VirtualCameraSampleController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABB04E8B2515A8160038D75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VirtualCameraSampleController/VirtualCameraSampleController.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247V527KAQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = VirtualCameraSampleController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.shmdevelopment.VirtualCameraSampleController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -351,6 +499,15 @@
 			buildConfigurations = (
 				ABB04E532515477A0038D75C /* Debug */,
 				ABB04E542515477A0038D75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB04E892515A8160038D75C /* Build configuration list for PBXNativeTarget "VirtualCameraSampleController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB04E8A2515A8160038D75C /* Debug */,
+				ABB04E8B2515A8160038D75C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
