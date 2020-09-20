@@ -114,7 +114,7 @@ class VideoComposer: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
 extension NSFont {
 
     func lineHeight() -> CGFloat {
-        return CGFloat(ceilf(Float(ascender + descender)))
+        return CGFloat(ceilf(Float(ascender + descender + leading)))
     }
 }
 
