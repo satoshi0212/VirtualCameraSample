@@ -22,11 +22,11 @@
 		ABB04E812515A8140038D75C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E802515A8140038D75C /* ViewController.swift */; };
 		ABB04E832515A8160038D75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB04E822515A8160038D75C /* Assets.xcassets */; };
 		ABB04E862515A8160038D75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB04E842515A8160038D75C /* Main.storyboard */; };
-		ABB04E912515EDD40038D75C /* SettingsPasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E902515EDD40038D75C /* SettingsPasteboard.swift */; };
-		ABB04E922515EDD40038D75C /* SettingsPasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E902515EDD40038D75C /* SettingsPasteboard.swift */; };
-		ABB04E962515EE320038D75C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E952515EE320038D75C /* Config.swift */; };
-		ABB04E972515EE320038D75C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E952515EE320038D75C /* Config.swift */; };
 		ABB04E9D25162D310038D75C /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04E9C25162D310038D75C /* WindowController.swift */; };
+		ABB04EB125194A7D0038D75C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04EAF25194A7D0038D75C /* Config.swift */; };
+		ABB04EB225194A7D0038D75C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04EAF25194A7D0038D75C /* Config.swift */; };
+		ABB04EB325194A7D0038D75C /* SettingsPasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04EB025194A7D0038D75C /* SettingsPasteboard.swift */; };
+		ABB04EB425194A7D0038D75C /* SettingsPasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB04EB025194A7D0038D75C /* SettingsPasteboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,9 +51,9 @@
 		ABB04E852515A8160038D75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABB04E872515A8160038D75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABB04E882515A8160038D75C /* VirtualCameraSampleController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VirtualCameraSampleController.entitlements; sourceTree = "<group>"; };
-		ABB04E902515EDD40038D75C /* SettingsPasteboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPasteboard.swift; sourceTree = "<group>"; };
-		ABB04E952515EE320038D75C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		ABB04E9C25162D310038D75C /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		ABB04EAF25194A7D0038D75C /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		ABB04EB025194A7D0038D75C /* SettingsPasteboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPasteboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 		ABB04E432515477A0038D75C = {
 			isa = PBXGroup;
 			children = (
-				ABB04E762515A6210038D75C /* Common */,
+				ABB04EAE25194A7D0038D75C /* Common */,
 				ABB04E4E2515477A0038D75C /* VirtualCameraSample */,
 				ABB04E7D2515A8140038D75C /* VirtualCameraSampleController */,
 				ABB04E4D2515477A0038D75C /* Products */,
@@ -113,15 +113,6 @@
 			path = VirtualCameraSample;
 			sourceTree = "<group>";
 		};
-		ABB04E762515A6210038D75C /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				ABB04E902515EDD40038D75C /* SettingsPasteboard.swift */,
-				ABB04E952515EE320038D75C /* Config.swift */,
-			);
-			name = Common;
-			sourceTree = "<group>";
-		};
 		ABB04E7D2515A8140038D75C /* VirtualCameraSampleController */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +125,15 @@
 				ABB04E882515A8160038D75C /* VirtualCameraSampleController.entitlements */,
 			);
 			path = VirtualCameraSampleController;
+			sourceTree = "<group>";
+		};
+		ABB04EAE25194A7D0038D75C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ABB04EAF25194A7D0038D75C /* Config.swift */,
+				ABB04EB025194A7D0038D75C /* SettingsPasteboard.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,13 +235,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB04E662515481A0038D75C /* Main.swift in Sources */,
+				ABB04EB325194A7D0038D75C /* SettingsPasteboard.swift in Sources */,
 				ABB04E642515481A0038D75C /* Property.swift in Sources */,
 				ABB04E682515481A0038D75C /* Plugin.swift in Sources */,
 				ABB04E7225154B1F0038D75C /* Device.swift in Sources */,
 				ABB04E632515481A0038D75C /* PluginInterface.swift in Sources */,
+				ABB04EB125194A7D0038D75C /* Config.swift in Sources */,
 				ABB04E6A2515481A0038D75C /* CameraCapture.swift in Sources */,
-				ABB04E962515EE320038D75C /* Config.swift in Sources */,
-				ABB04E912515EDD40038D75C /* SettingsPasteboard.swift in Sources */,
 				ABB04E6B2515481A0038D75C /* VideoComposer.swift in Sources */,
 				ABB04E622515481A0038D75C /* CVPixelBuffer+SimpleDALPlugin.swift in Sources */,
 				ABB04E672515481A0038D75C /* Object.swift in Sources */,
@@ -254,11 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB04E922515EDD40038D75C /* SettingsPasteboard.swift in Sources */,
 				ABB04E9D25162D310038D75C /* WindowController.swift in Sources */,
-				ABB04E972515EE320038D75C /* Config.swift in Sources */,
+				ABB04EB225194A7D0038D75C /* Config.swift in Sources */,
 				ABB04E812515A8140038D75C /* ViewController.swift in Sources */,
 				ABB04E7F2515A8140038D75C /* AppDelegate.swift in Sources */,
+				ABB04EB425194A7D0038D75C /* SettingsPasteboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
