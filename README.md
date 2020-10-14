@@ -1,5 +1,20 @@
 # VirtualCameraSample
 
+## Overview
+
+Minimum implementation of a virtual camera for macOS.
+
+## How to use
+
+1. Open the project in Xcode and select the "VirtualCameraSample" schema to build
+
+2. Place the generated `VirtualCameraSample.plugin` in `/Library/CoreMediaIO/Plug-Ins/DAL/`.
+
+3. Select the `VirtualCameraSampleController` schema in Xcode, build and execute it
+
+4. Select `VirtualCameraSample` in Zoom, enter a string from the controller application, and Send
+
+
 ## 概要
 
 macOS用仮想カメラの最小実装です。
